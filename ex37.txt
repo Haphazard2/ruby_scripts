@@ -1,0 +1,116 @@
+Exercise 37: Symbo Review
+  - Keywords
+	alias:
+	- A secondary name for an object.
+	and:
+	- A logical operator which means two object must meet a criteria.
+	BEGIN:
+	- The marker for the main sequence of code.
+	begin:
+	- The marker for the main sequence of code in a function/module.
+	break:
+	- A command to terminate the existing operation.
+	cause:
+	- ?
+	class: 
+	- ?
+	def:
+	- define an object
+	defined?
+	- determine if an object has been defined.
+	do:
+	- execute the following, provided the previous requirements have been met.
+	else:
+	- execute the following, provided the previous requirements have not been met.
+	elseif:
+	- A secondary condition test, provided the primary conditions were not met.
+	END:
+	- termination of the main body of script.
+	end:
+	- termination of a statement / function.
+	ensure:
+	- ?
+	false:
+	- force a condition to be false, non-zero.
+	for:
+	- apply a loop of actions to an array of arguments.
+	if:
+	- perform a true/false comparison to code/variable
+	in:
+	- ?
+	module:
+	- a container for arrays, and libraries.
+	next:
+	- a logical operator to force the following code to apply.
+	nil:
+	- an undefined value, a variable which contains nothing.
+	not:
+	- a logical operator, perform if conditions are not met.
+	or:
+	- a logical operator, either condition must be true, not necesarily both.
+	redo:
+	- ?
+	rescue:
+	- ?
+	return:
+	- output a specific string if conditions are met.
+	self:
+	- a value not shared outside of a module?
+	super:
+	- ?
+	then:
+	- perform the following code if above conditions are met.
+	undef:
+	- set a defined variable to nil.
+	unless:
+	- continue the loop so long as a condition is not met.
+	until:
+	- continue the loop so long as a condition is met.
+	when:
+	- ?
+	while:
+	- same as until.
+	yield:
+	- ?
+  - Data Types
+	true:
+	- a logical positive definition i.e. 1
+	false:
+	- a logical negative definition i.e. 0
+	nil:
+	- a blank, or undefined value.
+	constants:
+	- a variable with an unchanging value, generally denoted in all CAPS.
+	strings:
+	- a value consisting of letters and/or symbols.  It may contain numbers, but not exculsively.
+	numbers:
+	- a value consisting of only numbers, including positivie or negative integers and floating point values.
+	ranges:
+	- a pair of values, deliminated by 2 dots expressing a range of values between the 2, i.e. 1..5, or a..z, or 6..2
+	arrays:
+	- a list of values, such as a grocery list, or a batting lineup in baseball.
+	hashes:
+	- a list of key-value pairs, such as a phone list, which contains a person's name and coresponding phone number.
+  - String escape sequences:
+	\\
+	- print a forward slash ( \ )
+	\'
+	- print a single quote ( ' )
+	\"
+	- print a double quote ( " )
+	\a
+	- execute a control character, ^G which is execute a bell sound.
+	\b
+	- control character, ^H which is a backspace.
+	\f
+	- control character, ^L which is clear screen.
+	\n
+	- control character, ^J which is a newline.
+	\r
+	- control character, ^M which is carrage return, MS DOS uses this rather than newline.
+	\t
+	- control character, ^I which is a tab.
+	\v
+	- control character, ^K which is a a vertical tab.
+	  
+
